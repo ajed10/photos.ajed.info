@@ -1,0 +1,145 @@
+/* Fonts (From Google) - Updated to include all weights you're using */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+.montserrat-titling {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.inter-body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Header navbar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif; 
+}
+
+li a.logo img {
+    max-height: 20px;  
+    width: auto; 
+    vertical-align: middle;
+    display: inline-block;
+}
+
+li a:hover {
+    font-family: "Montserrat", sans-serif; 
+    font-weight: 500;
+}
+
+/* li a.logo:hover {
+    /* Does nothing right now*/
+/* } */
+
+/* Headings */
+h1 {
+    font-size: 3rem;
+    font-family: "Montserrat", sans-serif; 
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif; 
+}
+
+h3 {
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif; 
+    font-weight: 800;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif; 
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 1rem;
+    font-family: "Inter", sans-serif; 
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 0.75rem;
+    font-family: "Inter", sans-serif; 
+    font-weight: 400;  
+}
+
+h1.glass {
+    font-size: 3rem;
+    font-family: "Montserrat", sans-serif; 
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+}
+
+h1.showcase {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 3rem;
+    font-family: "Montserrat", sans-serif; 
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+div.showcase {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: top left;
+    left: 0;
+    right: 0;
+}
+
+section {
+    position: relative; /* This is crucial! */
+    width: 100vw;
+    height: 100vh; /* or min-height: 100vh */
+    margin: 0;
+    padding: 0; 
+    z-index: -1;
+}
+
