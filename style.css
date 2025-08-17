@@ -142,7 +142,6 @@ section {
     height: 100vh; 
     margin: 0;
     padding: 0; 
-    z-index: -1;
 }
 
 .image-container {
@@ -195,4 +194,7 @@ section {
     transform: scale(1.1);
 }
 
+a.glass {
+    color: rgba(255, 255, 255, 0.75);
+}
 
