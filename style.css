@@ -129,17 +129,20 @@ body{
 
 div.showcase {
     width: 100vw;
-    height: 100vh;
-    background-size: cover;
-    background-position: top left;
+    height: auto;
+    min-height: 50vh;
+    background-size: contain;
+    background-position: center;
     left: 0;
     right: 0;
+    background-repeat: no-repeat;
+
 }
 
 section {
     position: relative; 
     width: 100vw;
-    height: 100vh; 
+    height: 50vh; 
     margin: 0;
     padding: 0; 
 }
@@ -197,4 +200,3 @@ section {
 a.glass {
     color: rgba(255, 255, 255, 0.75);
 }
-
